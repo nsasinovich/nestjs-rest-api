@@ -26,7 +26,9 @@ export class CartsService {
   }
 
   findAll() {
-    return `This action returns all carts`;
+    console.log('This action returns all carts');
+
+    return [];
   }
 
   findOne(id: number) {
